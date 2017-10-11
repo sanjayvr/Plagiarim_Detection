@@ -39,7 +39,7 @@ The algorithm can be broked down as follows:
 Total Time Complexity - O(l+m+n)
 
 
-#### Assumptions
+#### Assumptions or Design Decisions
 
 1) The order of words in tuples is important for understanding the content has been plagiarized i.e., "go for a" and "for a go" are not the same according to the program.
 
@@ -53,3 +53,6 @@ Total Time Complexity - O(l+m+n)
 2) Try and Except block in order to make sure user gives necessary arguments and if not printing usage instructions as per the given directions
 3) If tuple size is larger than number of words in file 1 or file we are printing an error that tuple size is too big.
 4) Making all words from all files lower case to handle case-sensitivity
+
+
+
